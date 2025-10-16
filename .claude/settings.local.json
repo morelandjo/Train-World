@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/MinecraftMods/other mods gits/Create/src/**)",
+      "Read(//d/MinecraftMods/Minecraft Source/**)",
+      "Read(//d/MinecraftMods/other mods gits/LostCities/src/main/java/mcjty/lostcities/worldgen/**)",
+      "Read(//d/MinecraftMods/Neoforge Source/src/main/java/net/neoforged/neoforge/common/world/**)",
+      "Bash(dir:*)",
+      "Read(//d/MinecraftMods/other mods gits/LostCities/src/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

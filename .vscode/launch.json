@@ -1,0 +1,93 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - Train-World",
+        "order": 0
+      },
+      "projectName": "Train-World",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\MinecraftMods\\new mods\\Train-World\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\MinecraftMods\\new mods\\Train-World\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dtrainworld%%D:\\MinecraftMods\\new mods\\Train-World\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - Train-World",
+        "order": 1
+      },
+      "projectName": "Train-World",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\MinecraftMods\\new mods\\Train-World\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\MinecraftMods\\new mods\\Train-World\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dtrainworld%%D:\\MinecraftMods\\new mods\\Train-World\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - Train-World",
+        "order": 2
+      },
+      "projectName": "Train-World",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\MinecraftMods\\new mods\\Train-World\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\MinecraftMods\\new mods\\Train-World\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dtrainworld%%D:\\MinecraftMods\\new mods\\Train-World\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - Train-World",
+        "order": 3
+      },
+      "projectName": "Train-World",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\MinecraftMods\\new mods\\Train-World\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\MinecraftMods\\new mods\\Train-World\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dtrainworld%%D:\\MinecraftMods\\new mods\\Train-World\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}
